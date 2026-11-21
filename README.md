@@ -5,7 +5,7 @@
 <p align="center">
   <a href="mailto:binmotdenchin@gmail.com"><img src="https://img.shields.io/badge/Email-binmotdenchin%40gmail.com-ffd6e7?style=for-the-badge&logo=gmail&logoColor=3d405b" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/tu%C3%A2n-nguy%E1%BB%85n-ph%E1%BA%A1m-1782a43b8/"><img src="https://img.shields.io/badge/LinkedIn-Nguyen%20Pham%20Tuan-dbeafe?style=for-the-badge&logo=linkedin&logoColor=3d405b" alt="LinkedIn"/></a>
-  <img src="https://komarev.com/ghpvc/?username=binmotdenchin-jpg&color=c3a8ec&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+  <a href="https://github.com/binmotdenchin-jpg/binmotdenchin-jpg/blob/main/CV_NguyenPhamTuan.pdf"><img src="https://img.shields.io/badge/CV-View%20PDF-ece4f7?style=for-the-badge&logo=adobeacrobatreader&logoColor=3d405b" alt="CV"/></a>
 </p>
 
 ## 👨‍💻 About me
@@ -14,6 +14,7 @@
 - 🔬 Interested in **RTL design & verification** and **physical design / layout**
 - 🔧 Currently building a **mini standard cell library** on the gpdk045 (45 nm) PDK in Cadence Virtuoso
 - 📡 Built a bit-exact **MATLAB ↔ Verilog** AWGN noise generator for FPGA
+- 💼 Connect with me on [LinkedIn](https://www.linkedin.com/in/tu%C3%A2n-nguy%E1%BB%85n-ph%E1%BA%A1m-1782a43b8/) · 📄 [My CV (PDF)](https://github.com/binmotdenchin-jpg/binmotdenchin-jpg/blob/main/CV_NguyenPhamTuan.pdf)
 
 ## 🚀 Featured projects
 
