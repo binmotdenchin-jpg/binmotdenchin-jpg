@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#e9edf5" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f1ff"/>
+      <stop offset="1" stop-color="#e8f4ff"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="330" y="186" height="34" width="0">
+      <animate attributeName="width" values="0;440;440;0;0" keyTimes="0;0.12;0.30;0.32;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="330" y="186" height="34" width="0">
+      <animate attributeName="width" values="0;0;330;330;0;0" keyTimes="0;0.333;0.453;0.633;0.653;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="330" y="186" height="34" width="0">
+      <animate attributeName="width" values="0;0;440;440;0;0" keyTimes="0;0.667;0.787;0.967;0.987;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <!-- white card background with soft pastel accents -->
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="#ffffff" stroke="#e6e9f0" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="url(#grid)" opacity="0.8"/>
+  <circle cx="960" cy="20" r="90" fill="#ffd6e7" opacity="0.35"/>
+  <circle cx="30" cy="250" r="80" fill="#d4f1e4" opacity="0.45"/>
+
+  <!-- ===== IC chip with signal traces ===== -->
+  <g transform="translate(40,30)">
+    <g fill="none" stroke="#e1e6ef" stroke-width="2.5">
+      <path d="M60 70 H10 V20"/><path d="M60 100 H0"/><path d="M60 130 H10 V180"/>
+      <path d="M180 70 H230 V20 H260"/><path d="M180 100 H270"/><path d="M180 130 H230 V180 H260"/>
+      <path d="M100 40 V5"/><path d="M140 160 V200"/>
+    </g>
+    <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="12 160">
+      <path d="M60 70 H10 V20" stroke="#ff9ebb"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.2s" repeatCount="indefinite"/></path>
+      <path d="M60 100 H0" stroke="#8ccfb6"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="1.6s" repeatCount="indefinite"/></path>
+      <path d="M60 130 H10 V180" stroke="#9cc5f2"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.6s" repeatCount="indefinite"/></path>
+      <path d="M180 70 H230 V20 H260" stroke="#c3a8ec"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="1.9s" repeatCount="indefinite"/></path>
+      <path d="M180 100 H270" stroke="#ffbf8f"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="1.4s" repeatCount="indefinite"/></path>
+      <path d="M180 130 H230 V180 H260" stroke="#8ccfb6"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="2.4s" repeatCount="indefinite"/></path>
+      <path d="M100 40 V5" stroke="#9cc5f2"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="1.8s" repeatCount="indefinite"/></path>
+      <path d="M140 160 V200" stroke="#ff9ebb"><animate attributeName="stroke-dashoffset" from="172" to="0" dur="2s" repeatCount="indefinite"/></path>
+    </g>
+    <g fill="#c9cfdb">
+      <rect x="50" y="64" width="12" height="6" rx="1"/><rect x="50" y="82" width="12" height="6" rx="1"/>
+      <rect x="50" y="97" width="12" height="6" rx="1"/><rect x="50" y="112" width="12" height="6" rx="1"/>
+      <rect x="50" y="127" width="12" height="6" rx="1"/>
+      <rect x="178" y="64" width="12" height="6" rx="1"/><rect x="178" y="82" width="12" height="6" rx="1"/>
+      <rect x="178" y="97" width="12" height="6" rx="1"/><rect x="178" y="112" width="12" height="6" rx="1"/>
+      <rect x="178" y="127" width="12" height="6" rx="1"/>
+      <rect x="82" y="38" width="6" height="12" rx="1"/><rect x="97" y="38" width="6" height="12" rx="1"/>
+      <rect x="112" y="38" width="6" height="12" rx="1"/><rect x="127" y="38" width="6" height="12" rx="1"/>
+      <rect x="142" y="38" width="6" height="12" rx="1"/><rect x="157" y="38" width="6" height="12" rx="1"/>
+      <rect x="82" y="150" width="6" height="12" rx="1"/><rect x="97" y="150" width="6" height="12" rx="1"/>
+      <rect x="112" y="150" width="6" height="12" rx="1"/><rect x="127" y="150" width="6" height="12" rx="1"/>
+      <rect x="142" y="150" width="6" height="12" rx="1"/><rect x="157" y="150" width="6" height="12" rx="1"/>
+    </g>
+    <rect x="60" y="48" width="120" height="104" rx="12" fill="url(#chip)" stroke="#c3a8ec" stroke-width="2"/>
+    <circle cx="75" cy="63" r="4.5" fill="#ff9ebb">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="120" y="102" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" fill="#4a4e69">NPT-01</text>
+    <text x="120" y="124" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8a8fa8">gpdk045 · 45nm</text>
+  </g>
+
+  <!-- ===== Name ===== -->
+  <text x="330" y="92" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#3d405b">Nguyen Pham Tuan</text>
+
+  <!-- ===== Timing diagram ===== -->
+  <text x="330" y="136" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8a8fa8">CLK</text>
+  <path d="M372 140 h16 v-18 h16 v18 h16 v-18 h16 v18 h16 v-18 h16 v18 h16 v-18 h16 v18 h16 v-18 h16 v18 h16 v-18 h16 v18 h16 v-18 h16 v18 h16 v-18 h16 v18 h16 v-18 h16 v18 h16"
+        fill="none" stroke="#8ccfb6" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="420 110">
+    <animate attributeName="stroke-dashoffset" from="530" to="0" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <text x="330" y="166" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8a8fa8">DATA</text>
+  <path d="M372 170 h30 l6 -14 h60 l6 14 h40 l6 -14 h90 l6 14 h56 l6 -14 h44" fill="none" stroke="#ffbf8f" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="320 90">
+    <animate attributeName="stroke-dashoffset" from="410" to="0" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- ===== Typing lines ===== -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#5b6178">
+    <text x="330" y="212" textLength="440" lengthAdjust="spacingAndGlyphs" clip-path="url(#c1)">&gt; IC Design student @ FPT University</text>
+    <text x="330" y="212" textLength="330" lengthAdjust="spacingAndGlyphs" clip-path="url(#c2)">&gt; RTL design &amp; verification</text>
+    <text x="330" y="212" textLength="440" lengthAdjust="spacingAndGlyphs" clip-path="url(#c3)">&gt; Physical design · Cadence Virtuoso</text>
+  </g>
+  <g fill="#ff9ebb">
+    <animate attributeName="opacity" values="1;0" dur="0.9s" calcMode="discrete" repeatCount="indefinite"/>
+    <rect y="192" width="11" height="24" x="330">
+      <animate attributeName="x" values="330;770;770;330;330" keyTimes="0;0.12;0.30;0.32;1" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.32" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+    <rect y="192" width="11" height="24" x="330" opacity="0">
+      <animate attributeName="x" values="330;330;660;660;330;330" keyTimes="0;0.333;0.453;0.633;0.653;1" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.333;0.653" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+    <rect y="192" width="11" height="24" x="330" opacity="0">
+      <animate attributeName="x" values="330;330;770;770;330;330" keyTimes="0;0.667;0.787;0.967;0.987;1" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.667;0.987" dur="12s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ===== NMOS transistor: gate switches ON/OFF, current flows D -> S when ON ===== -->
+  <g transform="translate(820,40)" font-family="Consolas, 'Courier New', monospace">
+    <rect x="-14" y="-14" width="166" height="206" rx="16" fill="#fbf9ff" stroke="#e6def7" stroke-width="1.5"/>
+    <!-- gate wire and plate (color toggles with gate voltage) -->
+    <g stroke-width="4" stroke-linecap="round" fill="none" stroke="#c9cfdb">
+      <animate attributeName="stroke" values="#ff9ebb;#c9cfdb" keyTimes="0;0.5" dur="4s" calcMode="discrete" repeatCount="indefinite"/>
+      <path d="M8 100 H52"/>
+      <path d="M52 62 V138"/>
+    </g>
+    <!-- channel (3 segments, light up when ON) -->
+    <g stroke-width="5" stroke-linecap="round" stroke="#d8dde7">
+      <animate attributeName="stroke" values="#8ccfb6;#d8dde7" keyTimes="0;0.5" dur="4s" calcMode="discrete" repeatCount="indefinite"/>
+      <path d="M64 58 V78"/><path d="M64 90 V110"/><path d="M64 122 V142"/>
+    </g>
+    <!-- drain, source, body -->
+    <g stroke="#9aa3b8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M64 68 H110 V10"/>
+      <path d="M64 132 H110 V190"/>
+      <path d="M110 100 H70"/>
+      <path d="M110 100 V132"/>
+    </g>
+    <path d="M70 100 L82 93 L82 107 Z" fill="#9aa3b8"/>
+    <circle cx="8" cy="100" r="5" fill="#ffffff" stroke="#9aa3b8" stroke-width="2"/>
+    <circle cx="110" cy="10" r="5" fill="#ffffff" stroke="#9aa3b8" stroke-width="2"/>
+    <circle cx="110" cy="190" r="5" fill="#ffffff" stroke="#9aa3b8" stroke-width="2"/>
+    <text x="0" y="88" font-size="15" font-weight="700" fill="#4a4e69">G</text>
+    <text x="122" y="16" font-size="15" font-weight="700" fill="#4a4e69">D</text>
+    <text x="122" y="196" font-size="15" font-weight="700" fill="#4a4e69">S</text>
+    <!-- current dots D -> S, only while ON -->
+    <g fill="#ffbf8f">
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="4s" calcMode="discrete" repeatCount="indefinite"/>
+      <circle r="4.5"><animateMotion dur="1.2s" repeatCount="indefinite" path="M110 10 V68 H64 V132 H110 V190"/></circle>
+      <circle r="4.5"><animateMotion dur="1.2s" begin="0.4s" repeatCount="indefinite" path="M110 10 V68 H64 V132 H110 V190"/></circle>
+      <circle r="4.5"><animateMotion dur="1.2s" begin="0.8s" repeatCount="indefinite" path="M110 10 V68 H64 V132 H110 V190"/></circle>
+    </g>
+    <!-- ON / OFF label -->
+    <text x="10" y="150" font-size="14" font-weight="700" fill="#5fae92">ON
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="4s" calcMode="discrete" repeatCount="indefinite"/></text>
+    <text x="10" y="150" font-size="14" font-weight="700" fill="#a0a6b8" opacity="0">OFF
+      <animate attributeName="opacity" values="0;1" keyTimes="0;0.5" dur="4s" calcMode="discrete" repeatCount="indefinite"/></text>
+    <text x="10" y="172" font-size="11" fill="#8a8fa8">NMOS</text>
+  </g>
+</svg>

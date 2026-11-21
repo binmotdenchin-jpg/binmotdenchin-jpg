@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="190" viewBox="0 0 490 190">
+  <defs><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8a8fa8" flood-opacity="0.18"/></filter></defs>
+  <rect x="5" y="4" width="480" height="180" rx="14" fill="#ffffff" stroke="#e6e9f0" stroke-width="1.5" filter="url(#sh)"/>
+  <rect x="18" y="17" width="126" height="154" rx="10" fill="#f7f8fc" stroke="#edf0f6"/>
+  
+  <rect x="28" y="36" width="104" height="56" fill="#d4f1e4" fill-opacity="0.6" stroke="#8ccfb6" stroke-opacity="0.8"/>
+  <rect x="36" y="48" width="88" height="26" fill="#8ccfb6" fill-opacity="0.75"/>
+  <rect x="36" y="106" width="88" height="26" fill="#ffbf8f" fill-opacity="0.75"/>
+  <rect x="58" y="40" width="7" height="98" fill="#ff9ebb"/>
+  <rect x="95" y="40" width="7" height="98" fill="#ff9ebb"/>
+  <rect x="28" y="28" width="104" height="9" fill="#9cc5f2"/>
+  <rect x="28" y="140" width="104" height="9" fill="#9cc5f2"/>
+  <rect x="40" y="56" width="8" height="8" fill="#6b7085"/><rect x="74" y="56" width="8" height="8" fill="#6b7085"/><rect x="110" y="56" width="8" height="8" fill="#6b7085"/>
+  <rect x="40" y="114" width="8" height="8" fill="#6b7085"/><rect x="110" y="114" width="8" height="8" fill="#6b7085"/>
+  <rect x="24" y="30" width="112" height="3" fill="#c3a8ec" opacity="0.9">
+    <animate attributeName="y" values="26;150;26" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="80" y="166" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8a8fa8">NAND2 · gpdk045</text>
+  <text x="160" y="52" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#4a6fa5">Standard Cell Library</text>
+  <text x="160" y="88" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#5b6178">Mini standard cell library on gpdk045,</text><text x="160" y="110" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#5b6178">full-custom layouts in Cadence Virtuoso,</text><text x="160" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#5b6178">OCEAN + Python characterization.</text>
+  <rect x="160" y="148" width="130" height="24" rx="12" fill="#ece4f7"/><text x="225" y="164" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#6b4fa1">Cadence Virtuoso</text><rect x="298" y="148" width="61" height="24" rx="12" fill="#ffe6d5"/><text x="329" y="164" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#b5603a">OCEAN</text><rect x="368" y="148" width="60" height="24" rx="12" fill="#dbeafe"/><text x="398" y="164" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#3b6fb6">Python</text>
+  <g><rect x="372" y="12" width="100" height="22" rx="11" fill="#fff3c4" stroke="#f2d27a"/>
+  <text x="422" y="27" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#a07400">IN PROGRESS</text>
+  <animate attributeName="opacity" values="1;0.45;1" dur="2s" repeatCount="indefinite"/></g>
+</svg>
