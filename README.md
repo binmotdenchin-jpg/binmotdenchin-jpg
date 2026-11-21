@@ -39,6 +39,15 @@
   <img src="https://img.shields.io/badge/Proteus-ece4f7?style=for-the-badge" alt="Proteus"/>
 </p>
 
+## 🐍 Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/binmotdenchin-jpg/binmotdenchin-jpg/output/snake-pastel-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/binmotdenchin-jpg/binmotdenchin-jpg/output/snake-pastel.svg" alt="Pastel snake eating my contribution graph" width="100%"/>
+  </picture>
+</p>
+
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt=""/>
 </p>

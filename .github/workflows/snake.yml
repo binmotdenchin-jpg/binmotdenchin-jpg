@@ -20,7 +20,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-pastel.svg?color_snake=#ff9ebb&color_dots=#eef1f6,#d4f1e4,#9cc5f2,#c3a8ec,#ff9ebb
+            dist/snake-pastel.svg?color_snake=#ff8fb1&color_dots=#ebedf0,#b5e5cf,#9cc5f2,#b79ae8,#ff8fb1
             dist/snake-pastel-dark.svg?palette=github-dark&color_snake=#ff9ebb&color_dots=#161b22,#d4f1e4,#9cc5f2,#c3a8ec,#ff9ebb
 
       - name: Publish the SVGs to the output branch
